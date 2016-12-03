@@ -1,7 +1,7 @@
 #!/bin/bash
 # ------------------------------------------------------------------------------
-# Creates zip archive of all the files in the present working directory
-# Usage:
+# Usage:sh archive_logs.sh
+# Desc: Creates zip archive of all the files in the present working directory.
 # execute this script from the directory where there are files to be archived
 # ------------------------------------------------------------------------------
 working_dir=`pwd`

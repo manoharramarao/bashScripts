@@ -1,11 +1,12 @@
 #!/bin/bash
 
 #-------------------------------------------------------------------------------
-# Usage:
-# reads line from file jars_inside_hybris
-# splits the line by "/" and considers the last string as pattern
-# searches pattern in jars_inside_custom
-# if not present it prints the line
+# Usage: sh check_strings_between_files.sh
+# Desc:
+# 1. reads line from file jars_inside_hybris
+# 2. splits the line by "/" and considers the last string as pattern
+# 3. searches pattern in jars_inside_custom
+# 4. if not present it prints the line
 #-------------------------------------------------------------------------------
 
 while read -r line

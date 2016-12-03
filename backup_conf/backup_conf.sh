@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #-------------------------------------------------------------------------------
-# Usage: moves file into archive dir
+# Usage: sh path/to/script/backup_conf.sh <file name>
+# Desc: takes backup of the given file
 # input:
 #   file name to take backup
 # output:
